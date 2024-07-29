@@ -13,7 +13,7 @@ npm install react-native-file-access
 cd ios && pod install
 ```
 ``` Note:
-issue with iOS Linking:
+fix: issue with iOS Linking:
   if iOS is unable to link automatically got to you ios podFile and add this:
     pod 'react-native-file-access', :path => '<Location_to_your_node_modules>/node_modules/react-native-file-access'
 ```
